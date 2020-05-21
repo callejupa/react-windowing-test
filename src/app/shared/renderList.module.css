@@ -1,0 +1,17 @@
+.renderButton {
+  border: none;
+  background: white;
+  padding: 8pt 28pt;
+  color: #0E4A81;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.2s;
+  text-transform: uppercase;
+  font-size: 8pt;
+}
+
+.renderButton:hover {
+  background: #c0bdbe;
+  transform: scale(1.1);
+}

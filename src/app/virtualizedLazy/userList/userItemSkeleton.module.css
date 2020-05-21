@@ -1,0 +1,36 @@
+.userItemSkeleton {
+  display: flex;
+  height: 100%;
+  width: 100;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: white;
+  background: linear-gradient(
+      to left,
+      #1a1a1d 0%,
+      #6f2232 40%,
+      #6f2232 60%,
+      #1a1a1d 100%
+    )
+    left bottom no-repeat;
+  background-size: 100% 1px;
+}
+
+.imageSkeleton {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 18px;
+  background: #6f2232;
+  opacity: 0.5;
+}
+
+.textSkeleton {
+  flex-grow: 1;
+  height: 8pt;
+  border-radius: 10px;
+  background: #6f2232;
+  opacity: 0.5;
+}

@@ -1,0 +1,31 @@
+.userItem {
+  display: flex;
+  height: 100%;
+  width: 100;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 0 10px;
+  color: white;
+  background: linear-gradient(
+      to left,
+      #1a1a1d 0%,
+      #1a1a1d 40%,
+      #1a1a1d  60%,
+      #1a1a1d 100%
+    )
+    left bottom no-repeat;
+  background-size: 100% 1px;
+}
+
+.userItem:hover {
+  background: white;
+  color: black;
+}
+
+.userItem img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
